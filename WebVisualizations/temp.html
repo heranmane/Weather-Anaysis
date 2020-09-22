@@ -30,15 +30,14 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="data.html"> Data</a>
                 </li>
-                
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item active" href="temp.html">MaxTemperature</a>
-                        <br>
+                        <a class="dropdown-item" href="temperature.html">MaxTemperature</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="humidity.html">Humidity</a>
                         <div class="dropdown-divider"></div>
@@ -56,77 +55,29 @@
         <div class="row">
             <!-- <div class="description-content"> -->
 
-            <div class="col-lg-8 col-md-12">
+            <div class="col-lg-12 col-md-12">
 
                 <div class="box">
 
-                    <h1 class="title"> Latitude vs X </h1>
-                    <a href="temperature.html">
-                        <img class="main-image" src="Resources/assets/images/Fig1.png" alt="">
+                    <h1 class="title"> Latitude vs Max Temperature </h1>
+                    <a href="temp.html">
+                        <img src="Resources/assets/images/Fig1.png" alt="Image" style="auto">
                     </a>
                     <hr>
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the
-                        equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API
-                        to
-                        assemble a
-                        dataset on over 500 cities.
+
+
+                    <p>As Expected, the weather becomes significantly warmer as one approaches the equator (0 Deg.
+                        Latitude). More
+                        interestingly, however, is the fact that the southern hemisphere tends to be warmer this of
+                        year than the northern
+                        hemisphere. This may be due to lift of the earth at the time of the year this data was
+                        gahered.
                     </p>
 
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather
-                        vs.latitude.
-                        Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This
-                        site
-                        provides
-                        the source data
-                        and visualizations created as part of the analysis, as well as explanations and
-                        descriptions
-                        of any
-                        trends and correlations witnessed.
-                    </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12">
-                <hr>
-                <div class="box">
-                    <h2 class="title"> visualizations </h2>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <a href="temperature.html">
-                                <img class="thumbnail" src="Resources/assets/images/Fig1.png" alt="Max temp">
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <a href="humidity.html">
-                                <img class="thumbnail" src="Resources/assets/images/Fig2.png" alt="">
-                            </a>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <a href="cloudiness.html">
-                                <img class="thumbnail" src="Resources/assets/images/Fig3.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <a href="wind.html">
-                                <img class="thumbnail" src="Resources/assets/images/Fig4.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
     </div>
-
-
-
-
-
-
-
     <!-- Create container  -->
 
 
